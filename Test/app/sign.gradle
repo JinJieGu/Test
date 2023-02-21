@@ -1,0 +1,17 @@
+android {
+    signingConfigs {
+        // Google play console
+        release {
+            storeFile file("../keys/test.jks")
+            storePassword "yalla_athan@2023"
+            keyAlias 'athan_debug'
+            keyPassword "yalla_athan@2023"
+        }
+        debug {
+            storeFile file("../keys/test.jks")
+            storePassword "yalla_athan@2023"
+            keyAlias 'athan_debug'
+            keyPassword "yalla_athan@2023"
+        }
+    }
+}
